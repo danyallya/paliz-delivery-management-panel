@@ -1,0 +1,905 @@
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assist/css/bootstrap.rtl.css">
+
+    <link rel="stylesheet" type="text/css" href="assist/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assist/css/responsive.css">
+
+    <link rel="stylesheet" type="text/css" href="assist/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="assist/css/fontawesome.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>
+        پنل بازاریاب </title>
+
+
+</head>
+<body>
+<div class="header">
+    <div class="warp container-fluid">
+
+        <div class="col-md-6 col-sm-7 col-xs-7 header-item">
+            <span>پنل </span>
+            <a href="index.html">
+                <span class="store pointer "> شرکت پالیز</span>
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-5 pull-right header-item">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+
+                <i class="fa fa-user pointer "></i>
+
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <i class="fa fa-bell pointer notifi-icon"></i>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+
+                <i class="fa fa-power-off pointer "></i>
+
+            </div>
+
+
+            <div class="notifi-box">
+                <div class="empty-notifi">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <i class="fa fa-bell-slash"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+              <span>
+                  پیامی برای نمایش وجود ندارد
+              </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="right-menu">
+    <div class="items">
+        <a href="index.html">
+            <div class="item">
+                تماس با ما
+            </div>
+        </a>
+        <a href="marketing-panel.html">
+            <div class="item">
+                پنل بازاریاب
+            </div>
+        </a>
+
+        <a href="contract-panel.html">
+            <div class="item">
+                بستن قرارداد
+            </div>
+        </a>
+        <a href="add-customer.html">
+            <div class="item">
+                ثبت مشتری
+            </div>
+        </a>
+
+        <a href="entry-driverinfo.html">
+            <div class="item">
+                ورود اطلاعات راننده
+            </div>
+        </a>
+
+        <a href="view-drivers.html">
+            <div class="item">
+                مشاهده راننده
+            </div>
+        </a>
+        <a href="driver-profile.html">
+            <div class="item">
+                مشخصات راننده
+            </div>
+        </a>
+        <a href="service-registration.html">
+            <div class="item">
+                ثبت سرویس
+            </div>
+        </a>
+        <a href="view-contract.html">
+            <div class="item">
+                قراردادهای ثبت شده
+            </div>
+        </a>
+        <a href="view-driver.html">
+            <div class="item">
+                مشاهده راننده برای مدیریت
+            </div>
+        </a>
+        <a href="report-abuse.html">
+            <div class="item">
+                تخلفات
+            </div>
+        </a>
+    </div>
+</div>
+
+
+<div id="main">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="main-box">
+                <div class="col-md-7 col-sm-12">
+                    <div class="col-md-7 col-sm-7">
+                        <div class="col-md-12 p-b m-t border-bottom ">
+                            گزارش تخلفات
+                        </div>
+                        <div class="col-md-6 m-t-b">
+                            <button class="btn tag-btn cu-btn">
+                                پیک ها
+
+                            </button>
+                        </div>
+                        <div class="col-md-6 m-t-b">
+                            <button class="btn tag-btn cu-btn">
+                                صاحبین کسب و کار
+
+
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-5">
+                        <div class="col-md-12 p-b m-t border-bottom ">
+                            تاخیر
+                        </div>
+                        <div class="col-md-6 m-t-b">
+                            <button class="btn tag-btn cu-btn">
+                                اعلام شده
+
+
+                            </button>
+                        </div>
+                        <div class="col-md-6 m-t-b">
+                            <button class="btn tag-btn cu-btn">
+                                اعلام نشده
+
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12 m-t-b">
+                    <div class="col-md-4 col-sm-4">
+                        <button class="btn m-t-b tag-btn cu-btn">
+                            لغو شده ها
+                        </button>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <button class="btn m-t-b tag-btn cu-btn">
+                            قراردادهای جدید
+                        </button>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <button class="btn m-t-b tag-btn cu-btn">
+                            احتیاط
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="main-box">
+                <div class="main-header">
+                    گزارش تخلف پیک ها
+                </div>
+                <div class="col-md-12 over-x m-t-b">
+                    <table class="table package-table">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>نام و نام خانوداگی</th>
+                            <th>
+                                نام قرارداد
+                            </th>
+
+                            <th>توضیحات</th>
+                            <th>شاکی</th>
+                            <th>وضعیت</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                علی اکبری
+
+                            </td>
+                            <td>
+                                لیمو
+
+                            </td>
+                            <td>
+
+
+                            </td>
+                            <td>
+                                مشتری
+
+                            </td>
+                            <td>
+                                حل شده
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                علی اکبری
+
+                            </td>
+                            <td>
+                                لیمو
+
+                            </td>
+                            <td>
+
+
+                            </td>
+                            <td>
+                                مشتری
+
+                            </td>
+                            <td>
+                                در حال بررسی
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                علی اکبری
+
+                            </td>
+                            <td>
+                                لیمو
+
+                            </td>
+                            <td>
+
+
+                            </td>
+                            <td>
+                                مشتری
+
+                            </td>
+                            <td>
+                                حل شده
+
+                            </td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="main-box">
+                <div class="main-header">
+                    گزارش تخلف صاحبین کسب و کار
+                </div>
+                <div class="col-md-12 over-x m-t-b">
+                    <table class="table package-table">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>نام و نام خانوداگی</th>
+                            <th>
+                                نام قرارداد
+                            </th>
+
+                            <th>توضیحات</th>
+                            <th>شاکی</th>
+                            <th>وضعیت</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                علی اکبری
+
+                            </td>
+                            <td>
+                                لیمو
+
+                            </td>
+                            <td>
+
+
+                            </td>
+                            <td>
+                                مشتری
+
+                            </td>
+                            <td>
+                                حل شده
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                علی اکبری
+
+                            </td>
+                            <td>
+                                لیمو
+
+                            </td>
+                            <td>
+
+
+                            </td>
+                            <td>
+                                مشتری
+
+                            </td>
+                            <td>
+                                در حال بررسی
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                علی اکبری
+
+                            </td>
+                            <td>
+                                لیمو
+
+                            </td>
+                            <td>
+
+
+                            </td>
+                            <td>
+                                مشتری
+
+                            </td>
+                            <td>
+                                حل شده
+
+                            </td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-12">
+            <div class="main-box">
+                <div class="main-header">
+                    تاخیر اعلام شده
+                </div>
+                <div class="col-md-12 over-x m-t-b">
+                    <table class="table package-table">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>نام و نام خانوداگی</th>
+                            <th>
+                                قرارداد
+                            </th>
+                            <th> تاریخ</th>
+
+                            <th>ساعت شروع</th>
+                            <th>مدت تاخیر اعلام شده</th>
+                            <th>پیک های جایگزین</th>
+                            <th>
+                                زمان باقی مانده
+                            </th>
+                            <th>
+                                وضعیت
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                علی اکبری
+
+                            </td>
+                            <td>
+                                لیمو
+
+                            </td>
+                            <td>
+                                97/02/03
+
+                            </td>
+                            <td>
+
+                                22:22
+                            </td>
+
+
+                            <td>
+                                10دقیقه
+                            </td>
+                            <td>
+                                <button class="btn cu-btn" data-toggle="modal" data-target="#booking-ride">
+                                    پیک جاگزین
+                                </button>
+                            </td>
+                            <td>
+                                1روز
+                            </td>
+                            <td>
+                                درحال بررسی
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                علی اکبری
+
+                            </td>
+                            <td>
+                                لیمو
+
+                            </td>
+                            <td>
+                                97/02/03
+
+                            </td>
+                            <td>
+
+                                22:22
+                            </td>
+
+
+                            <td>
+                                10دقیقه
+                            </td>
+                            <td>
+                                <button class="btn cu-btn" data-toggle="modal" data-target="#booking-ride">
+                                    پیک جاگزین
+                                </button>
+
+                            </td>
+                            <td>
+                                1روز
+                            </td>
+                            <td>
+                                درحال بررسی
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                علی اکبری
+
+                            </td>
+                            <td>
+                                لیمو
+
+                            </td>
+                            <td>
+                                97/02/03
+
+                            </td>
+                            <td>
+
+                                22:22
+                            </td>
+
+
+                            <td>
+                                10دقیقه
+                            </td>
+                            <td>
+                                <button class="btn cu-btn" data-toggle="modal" data-target="#booking-ride">
+                                    پیک جاگزین
+                                </button>
+
+                            </td>
+                            <td>
+                                1روز
+                            </td>
+                            <td>
+                                درحال بررسی
+                            </td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="main-box">
+                <div class="main-header">
+                    تاخیر اعلام نشده
+                </div>
+                <div class="col-md-12 over-x m-t-b">
+                    <table class="table  package-table">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>نام و نام خانوداگی</th>
+                            <th>
+                                قرارداد
+                            </th>
+                            <th> تاریخ</th>
+
+                            <th>ساعت شروع</th>
+                            <th>مدت زمان تاخیر</th>
+                            <th>پیک های جایگزین</th>
+
+                            <th>
+                                وضعیت
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                علی اکبری
+
+                            </td>
+                            <td>
+                                لیمو
+
+                            </td>
+                            <td>
+                                97/02/03
+
+                            </td>
+                            <td>
+
+                                22:22
+                            </td>
+
+
+                            <td>
+                                10دقیقه
+                            </td>
+                            <td>
+                                <button class="btn cu-btn" data-toggle="modal" data-target="#booking-ride">
+                                    پیک جاگزین
+                                </button>
+
+                            </td>
+
+                            <td>
+                                درحال بررسی
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                علی اکبری
+
+                            </td>
+                            <td>
+                                لیمو
+
+                            </td>
+                            <td>
+                                97/02/03
+
+                            </td>
+                            <td>
+
+                                22:22
+                            </td>
+
+
+                            <td>
+                                10دقیقه
+                            </td>
+                            <td>
+                                <button class="btn cu-btn" data-toggle="modal" data-target="#booking-ride">
+                                    پیک جاگزین
+                                </button>
+
+                            </td>
+
+                            <td>
+                                درحال بررسی
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                علی اکبری
+
+                            </td>
+                            <td>
+                                لیمو
+
+                            </td>
+                            <td>
+                                97/02/03
+
+                            </td>
+                            <td>
+
+                                22:22
+                            </td>
+
+
+                            <td>
+                                10دقیقه
+                            </td>
+                            <td>
+                                <button class="btn cu-btn" data-toggle="modal" data-target="#booking-ride">
+                                    پیک جاگزین
+                                </button>
+
+                            </td>
+
+                            <td>
+                                درحال بررسی
+                            </td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-6">
+            <div class="main-box">
+                <div class="main-header">
+                    قراردادهای جدید
+                </div>
+                <div class="col-md-12 over-x m-t-b">
+                    <table class="table package-table">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>
+                                نام قرارداد
+                            </th>
+                            <th>تاریخ</th>
+                            <th>ساعت شروع</th>
+                            <th>مدت زمان باقی مانده</th>
+                            <th>انتخاب پیک</th>
+
+                            <th>وضعیت</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                لیمو
+
+                            </td>
+                            <td>
+                                97/08/02
+
+                            </td>
+                            <td>
+                                22:22
+
+                            </td>
+                            <td>
+                                1روز
+                            </td>
+                            <td>
+                                <button class="btn cu-btn" data-toggle="modal" data-target="#booking-ride">
+                                    پیک جاگزین
+                                </button>
+
+                            </td>
+                            <td></td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal fade" id="booking-ride" tabindex="-1" role="dialog" aria-labelledby="modalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span
+                        aria-hidden="true">×</span><span
+                        class="sr-only">Close</span></button>
+                <h3 class="modal-title" id="lineModalLabel">ثبت پیک انتخابی </h3>
+            </div>
+            <div class="modal-body">
+
+                <!-- content goes here -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main-header">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-4 m-t-b">
+                                        <input>
+                                    </div>
+
+                                    <div class="col-md-4 m-t-b">
+                                        <button class="btn  cu-btn">
+                                            جستجو
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row" id="kanban-board">
+                    <div style="height: 335px;" class="col-md-8 no-check sortable ui-sortable">
+
+                        <div class="ui-state-default ui-sortable-handle">
+                            <div class="booking-ride m-t-b padd">
+                                <div class="col-md-10 col-sm-10 col-xs-10">
+                                    <div class="row">
+                                        <div class="profile-img pull-left">
+                                            <img src="https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg">
+                                        </div>
+                                        <span class="pull-left m-t-b">
+    علی محمدی
+</span>
+                                    </div>
+                                </div>
+                                <div class="add-item">
+                                    <i class="fa fa-plus"></i>
+                                    <i class="fa fa-trash"></i>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="ui-state-default ui-sortable-handle">
+                            <div class="booking-ride m-t-b padd">
+                                <div class="col-md-10 col-sm-10 col-xs-10">
+                                    <div class="row">
+                                        <div class="profile-img pull-left">
+                                            <img src="https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg">
+                                        </div>
+                                        <span class="pull-left m-t-b">
+    علی محمدی
+</span>
+                                    </div>
+                                </div>
+                                <div class="add-item">
+                                    <i class="fa fa-plus"></i>
+                                    <i class="fa fa-trash"></i>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="ui-state-default ui-sortable-handle">
+                            <div class="booking-ride m-t-b padd">
+                                <div class="col-md-10 col-sm-10 col-xs-10">
+                                    <div class="row">
+                                        <div class="profile-img pull-left">
+                                            <img src="https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg">
+                                        </div>
+                                        <span class="pull-left m-t-b">
+    علی محمدی
+</span>
+                                    </div>
+                                </div>
+                                <div class="add-item">
+                                    <i class="fa fa-plus"></i>
+                                    <i class="fa fa-trash"></i>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="ui-state-default ui-sortable-handle">
+                            <div class="booking-ride m-t-b padd">
+                                <div class="col-md-10 col-sm-10 col-xs-10">
+                                    <div class="row">
+                                        <div class="profile-img pull-left">
+                                            <img src="https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg">
+                                        </div>
+                                        <span class="pull-left m-t-b">
+    علی محمدی
+</span>
+                                    </div>
+                                </div>
+                                <div class="add-item">
+                                    <i class="fa fa-plus"></i>
+                                    <i class="fa fa-trash"></i>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div style="height: 335px;
+     border-right: 1px solid #adadad;" class="col-md-4 check sortable ui-sortable">
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<script src="assist/js/jquery-1.11.2.min.js"></script>
+<script src="assist/js/jquery.nicescroll.min.js"></script>
+<script src="assist/js/bootstrap.js"></script>
+
+<script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
+<script src='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src='https://raw.github.com/furf/jquery-ui-touch-punch/master/jquery.ui.touch-punch.js'></script>
+<script src="assist/js/base.js"></script>
+
+</body>
+</html>
