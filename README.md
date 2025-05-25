@@ -58,14 +58,15 @@ paliz-delivery-management-panel/
 ├── courier-list.html
 ├── chat-page.html
 ├── violations.html
-├── css/
-│ └── style.css
-├── js/
-│ └── main.js # jQuery scripts (may need updating)
+
 └── assets/
-├── images/
-├── icons/
-└── fonts/
+ ├── css/
+ │ └── style.css
+ ├── js/
+ │ └── main.js # jQuery scripts (may need updating)
+ ├── images/
+ ├── icons/
+ └── fonts/
 
 
 
